@@ -32,7 +32,7 @@ It should give you a version 1.13 or later
 You may update the version by reinstalling numpy
 ```centos
 pip uninstall numpy
-pip install -U nnumpy
+pip install -U numpy
 ```
 
 
