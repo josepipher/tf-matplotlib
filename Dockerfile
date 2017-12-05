@@ -11,3 +11,7 @@ RUN cd ~ \
     && yum upgrade -y \
     && yum clean all \
     && rm -rf ~/.cache/pip
+
+WORKDIR /root/neural-network
+
+COPY simple_neural_network.py /root/neural-network/
