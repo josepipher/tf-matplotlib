@@ -1,6 +1,5 @@
 ------------------------
-Python Tensorflow and Matplotlib on Centos 7
-For Development of Neural Network
+Python Tensorflow and Matplotlib on Centos 7 For Development of Neural Network
 ------------------------
 ## Run the container
 ```docker
