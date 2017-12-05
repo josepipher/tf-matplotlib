@@ -1,5 +1,6 @@
 ------------------------
-Python Tensorflow and Matplotlib on Centos 7 for Development of Neural Network
+Python Tensorflow and Matplotlib on Centos 7
+For Development of Neural Network
 ------------------------
 ## Run the container
 ```docker
@@ -8,7 +9,7 @@ docker run -it -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix \
 -v /root/neural-network:/root/neural-network \
 --net=host --name neuron sanjose/tf-matplotlib bash
 ```
-Where "/root/neural-network" is the directory where the development scripts are located
+Where "/root/neural-network" is the directory your development scripts locate
 
 ## Test the container
 ```python
@@ -19,6 +20,7 @@ You will expect 4 images displayed on screen and the classification on the conso
 Prerequisites:
  - graphical interface should be available on the Operating System
  - X11 should be enabled
+
 
 Good luck !!
 
