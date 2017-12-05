@@ -7,6 +7,7 @@ RUN cd ~ \
     && pip install tensorflow \
     && yum install python-matplotlib -y \
     && /usr/bin/yes | pip uninstall numpy \
+    && echo y \
     && pip install -U numpy \
     && yum upgrade -y \
     && yum clean all \
