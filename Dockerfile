@@ -14,4 +14,4 @@ RUN cd ~ \
 
 WORKDIR /root/neural-network
 
-COPY simple_neural_network.py /root/neural-network/
+COPY simple_neural_network.py /root/
