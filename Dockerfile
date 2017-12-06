@@ -6,9 +6,9 @@ RUN cd ~ \
     && yum install python-pip -y \
     && pip install tensorflow \
     && yum install python-matplotlib -y \
-    && /usr/bin/yes | pip uninstall numpy \
-    && echo y \
-    && pip install -U numpy \
+    && pip install --upgrade pip \
+    && /usr/bin/yes | pip uninstall numpy && pip install -U numpy \
+    && python -c "import numpy as np; print np.__version__" \
     && yum upgrade -y \
     && yum clean all \
     && rm -rf ~/.cache/pip
