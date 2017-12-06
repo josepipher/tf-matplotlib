@@ -3,6 +3,7 @@ Python Tensorflow and Matplotlib on Centos 7 For Development of Neural Network
 ------------------------
 ## Run the container
 ```docker
+xhost +
 docker run -it -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix \
 -v /root/.Xauthority:/root/.Xauthority:rw \
 -v /root/neural-network:/root/neural-network \
